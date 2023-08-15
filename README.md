@@ -17,15 +17,15 @@ So now the machine will get a list of movies that are similar to the movie the u
 Approach Used:
 
 
-classification
+* classification
 
 we cant use the classifiaction technique because we cannot recommend the movie using bi-class classifiaction. so it is not more suitable method to recommend.
 
-regression
+* regression
 
 even by using regression models we cant recommend the movie to the user .because it is used to predict but we need to recommend the movie . so it is not useful method to recommend the movie.
 
-Clustering
+* Clustering
 
 To recommend a list of movies to the user we used the clustering technique. The movies in the dataset are divided into clusters based on features Rating, Genres, Actor's names, Director name, Year of Release.   
 By using these features weights are generated. Based on these weights the movies in the dataset are divided into clusters. Once the user inputs the name or names of the movies watched
